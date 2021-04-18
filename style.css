@@ -1,0 +1,126 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: yellow;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:green;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+marquee{
+  height: 20px;
+
+  background-color: blue;
+  color: white;
+  
+}
+.si{
+  width: 1405px;
+}
+#map{
+  width: 1405px;
+}
+#info{
+  align-content: center;
+}
+hr{
+  border-width: 0px;
+}
+.row::after{
+content: "";
+clear: both;
+display: table;
+}
+.travel_maindiv{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid white;
+}
+.travel_maindiv img{
+  width: 100%;
+  height: 300px;
+}
+.travel_maindiv hr{
+  width: 100%;
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+ 
+input
+{
+    background: grey
+}
+.movie_head { font-size: 20px; padding: 6px 22px; border-radius: 10px; margin-bottom: 15px; width: 100%; display: inline-block; } .movie_head i { float: right; } .movie_text span { color: #ff7700; }
+.environment_li{
+    margin: 13px;
+}
+.environment_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.environment_li img{
+    border-radius: 25px;
+}
+.environment_li p{
+    margin-top: 10px;
+}
+.header-entepreneu{
+  line-height: 2px;
+}
+.book{
+  cursor: pointer;
+}
+.book hr{
+  margin-bottom: 10px;
+}
+.modal-contant{
+  margin-top: 100px;
+}
+.img_modal{
+display: inline-block;
+}
+.p_modal{
+  margin-top: 10px;
+}
+.modal-body{
+  text-align:center;
+}
+.size{
+  width: 200px;
+  height: 200px;
+}
